@@ -1,0 +1,122 @@
+body {
+    position: relative;
+}
+body , html {
+    height: 100%;
+    background-color: #f7f7f7;
+    scroll-behavior: smooth;
+}
+h2, h3, h6 {
+    font-family: 'Noto Serif', sans-serif;
+}
+
+/*###########################################
+                    HOME
+############################################*/
+#home {
+    background-image: url(/assets/img/bg-img.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel {
+    margin-top: 80px;
+}
+.carousel img {
+        width: 100%;
+        height: auto;
+}
+@media screen and (min-width: 400px) {
+    .carousel img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 800px) {
+  .carousel img {
+        width: 50%;
+        height: auto;
+    }
+}
+.hd {
+    font-size: 56px;
+    position: absolute;
+    bottom: 80px;
+}
+/*############################################
+                CARDS
+#############################################*/
+.hd-1 {
+    text-align: center;
+}
+.article .lead {
+    text-align: center;
+}
+
+
+/*####################################################
+                      BLOG
+####################################################*/
+#blog {
+    background-color: #f7f7f7;
+}
+
+.blog-post {
+    margin-top: 60px;
+}
+.w-50 {
+    background-color: orange;
+}
+.col-sm-5 {
+    margin-top: 25px;
+}
+.main-blog-area img {
+    width: 100%;
+    height: auto;
+}
+.blog-header, li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+}
+.blog-header nav {
+    background-color: #f7f7f7;
+}
+
+/*####################################################
+                       CONTACT
+####################################################*/
+#contact {
+    background-color: #f7f7f7;
+}
+
+h3 ,.connt {
+    text-align: center;
+}
+/*####################################################
+                      BUTTON
+####################################################*/
+.more .button {
+    margin: 35px;
+    text-align: center;
+    width:25%;
+    border: 2px solid #2e2e2e;
+    border-radius: 25px;
+}
+.more .button:hover {
+    border-color: orange;
+    border-radius: 50px;
+}
+.button {
+    text-align: center;
+    width: 30%;
+    border: 2px solid #2e2e2e;
+    border-radius: 25px;
+}
+.button:hover {
+    border-color: orange;
+    border-radius: 50px;
+}

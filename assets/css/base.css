@@ -1,0 +1,62 @@
+/*##########################################
+                NAVBAR
+###########################################*/
+nav .navbar-brand {
+    font-size: 28px;
+}
+nav .navbar-nav li a{
+    color: black;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0px -24px 91px 0px rgba(0,0,0,0.14);
+}
+.nav-item {
+  color: #ffc107;
+  float: left;
+  position: relative;
+  padding: 10px 20px;
+  overflow: hidden;
+}
+
+.nav-item::after {
+  background-color: #ffc107;
+  content: "";
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  transition: width 0.35s ease 0s;
+  position: absolute;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+/*####################################################
+                        FOOTER
+####################################################*/
+footer {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.social {
+    text-align: center;
+    font-family: 'Open Sans';
+}
+.social_contact a{
+    margin: 30px;
+    color: black;
+}
+.social_contact a:hover {
+    color: #ffc107;
+}
+.dev{
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    bottom: 10px;
+}
